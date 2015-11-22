@@ -53,6 +53,7 @@
 
 `react-dom`包含`ReactDOM.render`,`.unmountComponentAtNode`,和`.findDOMNode`。在`react-dom/server`中我们有包括`ReactDOMServer.renderToString`和`.renderToStaticMarkup`在内的服务端的渲染支持。
 
+```js
     var React = require('react');
     var ReactDOM = require('react-dom');
 
@@ -63,6 +64,7 @@
     });
 
     ReactDOM.render(<MyComponent />, node);
+```
 
 旧的功能将会带着警告正常工作，一直到React 0.15发布，同时我们也发布了Facebook使用的[ automated codemod script](https://github.com/reactjs/react-codemod/blob/master/README.md)来帮助你完成更新的过度。
 
