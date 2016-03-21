@@ -9,11 +9,7 @@ Translate React blog of facebook official in Chinese.
 最后，Enjoy React!
 
 ## 文章列表(Article List) ##
-<<<<<<< Updated upstream
- 
-=======
 
->>>>>>> Stashed changes
  * [React v0.14](src/React v0.14.md)
 
 
